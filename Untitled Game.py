@@ -2,8 +2,8 @@ import random
 import time
 pl="Y"
 
-thisisavariablethatwillneverbechanged=1
-while thisisavariablethatwillneverbechanged>-1:
+
+while True:
         #WARNING: THIS SOURCE CODE IS VERY MESSY. IF YOU CAN MAKE OPTIMISATIONS, PLEASE LET THE CREATOR KNOW.
         inventory=["Pillow", "Nutristick", "Nutristick", "Nutristick", "Blue Time Crystal", "Orange Time Crystal"]
         weapons=["Sword", "Bow and Arrow", "Axe", "Gun", "Hammer", "Radiobanana", "Banana", "Pillow", "Ultra Hammer", "Sword of Meer"]
