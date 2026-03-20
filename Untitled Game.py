@@ -134,9 +134,8 @@ while True:
                     resp=input("\nWhat will you do? (Walk [W]||Check Inventory [I]||Forage [F]||Climb a tree [C]): ")
                     
                     if (resp=='W' or resp=='w'):
-                        resp2=input("North [N]||South [S]")
                         time.sleep(2)
-                        dice=random.randint(-3,9)
+                        dice=random.randint(0,10)
                         if (resp2=='N' or 'n'):
                             d=d+100
                         elif (resp2=='S' or 's'):
@@ -396,7 +395,7 @@ while True:
                                                     
                                             
                                     
-                        elif (dice==6 or dice==7):
+                        elif (dice==6 or dice==7 or dice==10):
                             print("\nSomeone wants to fight you!")
                             dice2=random.randint(1, 7)
                             if (dice2==1): eneq="Sword"
